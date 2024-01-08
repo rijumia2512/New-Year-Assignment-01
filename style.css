@@ -1,0 +1,424 @@
+/* Universal Style */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 80px auto;
+    border-radius: 16px;
+    display: flex;
+}
+
+.primary-btn {
+    padding: 16px 32px;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #F00;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    text-transform: uppercase;
+}
+
+.primary-btn:hover {
+    color: black;
+    background-color: #FFF;
+}
+
+/* Happy New Year banner Section Style  */
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('img/Banner Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    color: #fff;
+    text-align: center;
+    max-width: 630px;
+    margin: auto;
+}
+
+.banner-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-heading {
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* 65% off scetion style  */
+.deal-text {
+    text-align: center;
+}
+
+.deal-heading {
+    font-family: Times, serif;
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 38px 0;
+}
+
+.deal-description {
+    font-family: Times, serif;
+    color: #F00;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.deal-categoris {
+    font-family: Times, serif;
+    color: #070211;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.deal-img {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Welcome To Midnight Party Section Style */
+.welcome-section {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('img/Vectorrr.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.welcome-section-text {
+    margin: 50px;
+}
+
+.welcome-section-heading {
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    max-width: 600px;
+}
+
+.welcome-section-description {
+    font-family: 'Merriweather', serif;
+    color: #808080;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 660px;
+}
+
+/* Event Section Style  */
+.event-section {
+    margin: 120px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.event-section-content {
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+.event-section-text {
+    font-family: Times, serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.event-section-text .special {
+    color: #F00;
+}
+
+/* Coming Soon Section Style  */
+.coming-soon {
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.coming-soon-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 390px;
+}
+
+.year-text {
+    font-family: Times, serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.special {
+    color: #F00;
+}
+
+.coming-soon-description-right {
+    max-width: 275px;
+}
+
+.coming-soon .celebration {
+    border-spacing: 20px;
+}
+
+.photo {
+    height: fit-content;
+    padding: 50px;
+    border: 20px solid red;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* Holidays Sale Section Style  */
+.holidays-sale-inner {
+    margin-bottom: 100px;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.holidays-sale-text {
+    margin: 40px auto 0px;
+    text-align: center;
+}
+
+h4 {
+    color: #070211;
+    font-family: Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.holidays-sale-heading {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays-sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.holidays-sale-content {
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+.person-img {
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.bottom-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.discount-img {
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+
+.gift-img {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+/* Awesome Portfolio Section Style  */
+.portfolio {
+    width: 80%;
+    max-width: 1320px;
+    margin: 100px auto;
+}
+
+.portfolio-description {
+    color: #808080;
+    font-family: Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 890px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-showcase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-img img {
+    width: 90%;
+    max-width: 424px;
+    transform: translateY(0);
+    box-shadow: 1px 1px 10px #b1b1b1;
+    border-radius: 16px;
+    transition: all 0.5s;
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.product-img img:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 2px 8px #8b8b8b;
+    scale: 1;
+    z-index: 4;
+}
+
+
+/* Subcribe section style  */
+
+.subcribe-content {
+        margin: 120px auto;
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.subcriber-container {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.subcribe-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subcribe-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 890px;
+}
+
+.subcriber-form {
+    width: 640px;
+    height: 72px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.subcriber-form form {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 20px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.subcribe-btn {
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: Times, serif;
+    color: #FFF;
+    font-weight: 600;
+    padding: 0 32px;
+    background: #F00;
+    border-radius: 0px 30px 30px 0;
+    transition: 0.5s;
+}
+
+.subcribe-btn:hover {
+    color: #070211;
+    background: rgb(245, 28, 28);
+}
+
+/* Footer Section Style  */
+
+footer{
+    background-color: #070211;
+}
+.footer-container{
+    width: 80%;
+    max-width: 1320px;
+    margin:0 auto;
+}
+.footer-address{
+    color: #FFF;
+    font-family: Times, serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    max-width: 372px;
+}
+.footer-call , .footer-web{
+    font-family: Times, serif;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    align-items: center;
+}
+.footer-row{
+    margin-top:40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding:50px 0;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin:50px 0;
+}
