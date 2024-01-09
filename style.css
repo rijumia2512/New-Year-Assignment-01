@@ -22,7 +22,7 @@
     color: #FFF;
     border-radius: 8px;
     background-color: #F00;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Times, serif;
     font-size: 20px;
     font-weight: 700;
     margin-top: 48px;
@@ -62,7 +62,7 @@
     line-height: 95px;
 }
 
-/* 65% off scetion style  */
+/* 65% off section style  */
 .deal-text {
     text-align: center;
 }
@@ -130,6 +130,15 @@
 }
 
 /* Event Section Style  */
+.next-event {
+    width: 80%;
+    max-width: 1320px;
+    height: 500px;
+    margin: 80px auto;
+    border-radius: 16px;
+    display: flex;
+}
+
 .event-section {
     margin: 120px auto;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -316,26 +325,26 @@ h4 {
 }
 
 
-/* Subcribe section style  */
+/* Subscribe section style  */
 
-.subcribe-content {
-        margin: 120px auto;
-        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+.subscribe-content {
+    margin: 120px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
-.subcriber-container {
+.subscribe-container {
     text-align: center;
     margin: 60px auto;
 }
 
-.subcribe-heading {
+.subscribe-heading {
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 48px;
     font-weight: 900;
 }
 
-.subcribe-discription {
+.subscribe-discription {
     color: rgba(7, 2, 17, 0.60);
     font-family: Times, serif;
     font-size: 18px;
@@ -344,14 +353,14 @@ h4 {
     max-width: 890px;
 }
 
-.subcriber-form {
+.subscribe-form {
     width: 640px;
     height: 72px;
     margin: 40px auto;
     text-align: center;
 }
 
-.subcriber-form form {
+.subscribe-form form {
     display: flex;
 }
 
@@ -365,7 +374,7 @@ input {
     border-radius: 30px 0px 0px 30px;
 }
 
-.subcribe-btn {
+.subscribe-btn {
     border: none;
     font-size: 20px;
     text-align: center;
@@ -378,22 +387,24 @@ input {
     transition: 0.5s;
 }
 
-.subcribe-btn:hover {
+.subscribe-btn:hover {
     color: #070211;
     background: rgb(245, 28, 28);
 }
 
 /* Footer Section Style  */
 
-footer{
+footer {
     background-color: #070211;
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     max-width: 1320px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.footer-address{
+
+.footer-address {
     color: #FFF;
     font-family: Times, serif;
     font-size: 24px;
@@ -401,7 +412,9 @@ footer{
     line-height: 40px;
     max-width: 372px;
 }
-.footer-call , .footer-web{
+
+.footer-call,
+.footer-web {
     font-family: Times, serif;
     color: #FFF;
     font-size: 24px;
@@ -409,16 +422,18 @@ footer{
     line-height: 40px;
     align-items: center;
 }
-.footer-row{
-    margin-top:40px;
+
+.footer-row {
+    margin-top: 40px;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    padding:50px 0;
+    padding: 50px 0;
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     justify-content: center;
-    gap:30px;
-    margin:50px 0;
+    gap: 30px;
+    margin: 50px 0;
 }
